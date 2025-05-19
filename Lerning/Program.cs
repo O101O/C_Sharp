@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Please enter first number:");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Please enter second number:");
+        int b = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Sum: {a + b}");
+
+    }
+}
